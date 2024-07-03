@@ -55,7 +55,7 @@
             <p>Are you passionate about technology and innovation? We're looking for talented individuals to join our dynamic network. Apply today!</p>
         </section>
     </div>
-</main>
+</main>   
 <section aria-label="Subscribe example">
     <div class="container">
         <article>
@@ -63,11 +63,12 @@
                 <h2>Stay Updated</h2>
                 <h3>Subscribe to our newsletter</h3>
             </hgroup>
-            <form class="grid">
+            <form class="grid" action="https://script.google.com/macros/s/AKfycbxzU3YtM3TCIQxrHItVveEuAyRyJIaoBW7IBDoWJAi_6_a9LFEIclm-_EsK7owfVtc/exec" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                 <input type="text" id="firstname" name="firstname" placeholder="Your Name" aria-label="Your Name" required />
                 <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
-                <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+            <button type="submit">Subscribe</button>
             </form>
+                <iframe name="hidden_iframe" style="display:none;"></iframe>
         </article>
     </div>
 </section>
